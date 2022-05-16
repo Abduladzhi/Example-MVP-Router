@@ -10,6 +10,7 @@
 		986BCA9D28323820009D45D3 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BCA9C28323820009D45D3 /* DetailPresenter.swift */; };
 		986BCAA728323B88009D45D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BCAA528323B88009D45D3 /* DetailViewController.swift */; };
 		986BCAA828323B88009D45D3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986BCAA628323B88009D45D3 /* DetailViewController.xib */; };
+		986BCAAB2832414D009D45D3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986BCAAA2832414D009D45D3 /* Router.swift */; };
 		98C3B2B8283193B9007E6AB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3B2B7283193B9007E6AB7 /* AppDelegate.swift */; };
 		98C3B2BA283193B9007E6AB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3B2B9283193B9007E6AB7 /* SceneDelegate.swift */; };
 		98C3B2BC283193B9007E6AB7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C3B2BB283193B9007E6AB7 /* MainViewController.swift */; };
@@ -26,6 +27,7 @@
 		986BCA9C28323820009D45D3 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		986BCAA528323B88009D45D3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		986BCAA628323B88009D45D3 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		986BCAAA2832414D009D45D3 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		98C3B2B4283193B9007E6AB7 /* MVP-test-v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP-test-v1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C3B2B7283193B9007E6AB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98C3B2B9283193B9007E6AB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,12 +98,13 @@
 		98C3B2B6283193B9007E6AB7 /* MVP-test-v1 */ = {
 			isa = PBXGroup;
 			children = (
-				986BCAA428323B60009D45D3 /* DetailModule */,
+				986BCAAA2832414D009D45D3 /* Router.swift */,
 				98C3B2D92831AF22007E6AB7 /* Common */,
 				98C3B2C5283193BA007E6AB7 /* Info.plist */,
 				98C3B2D528319B05007E6AB7 /* ModuleBuilder.swift */,
 				98C3B2D72831A305007E6AB7 /* NetworkService.swift */,
 				98C3B2DA2831AF4E007E6AB7 /* App */,
+				986BCAA428323B60009D45D3 /* DetailModule */,
 				98C3B2CF283198AD007E6AB7 /* MainModule */,
 			);
 			path = "MVP-test-v1";
@@ -242,6 +245,7 @@
 			files = (
 				986BCAA728323B88009D45D3 /* DetailViewController.swift in Sources */,
 				98C3B2CE2831941B007E6AB7 /* MainPresenter.swift in Sources */,
+				986BCAAB2832414D009D45D3 /* Router.swift in Sources */,
 				98C3B2BC283193B9007E6AB7 /* MainViewController.swift in Sources */,
 				98C3B2B8283193B9007E6AB7 /* AppDelegate.swift in Sources */,
 				986BCA9D28323820009D45D3 /* DetailPresenter.swift in Sources */,

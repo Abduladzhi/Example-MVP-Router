@@ -17,6 +17,9 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         presenter.setComment()
     }
+    @IBAction func backPress(_ sender: Any) {
+        presenter.tap()
+    }
 }
 
 extension DetailViewController: DetailViewProtocol {
